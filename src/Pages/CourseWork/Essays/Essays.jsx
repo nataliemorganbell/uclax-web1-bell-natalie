@@ -96,7 +96,7 @@ const Essays = () => {
                 Developers: What’s the Difference?)
             </SingleEssay>
             <SingleEssay
-                question={`The Difference Ways to Link to Resources in React (e.g. Root Relative vs. Document Relative):`}
+                question={`The Different Ways to Link to Resources in React (e.g. Root Relative vs. Document Relative):`}
             >
                 Answer 4 goes here.
             </SingleEssay>
