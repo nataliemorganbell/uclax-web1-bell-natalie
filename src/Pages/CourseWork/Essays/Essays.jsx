@@ -7,20 +7,30 @@ const Essays = () => {
             <h2>Essays</h2>
 
             <SingleEssay question={`The Difference Between HTML, CSS & JS:`}>
-                While HTML creates the basic structure for a website, CSS adds
-                style to that structure, and JavaScript takes all of that work
-                and makes it interactive and more functionally complex. (UT
-                Austin Tech Boot Camp; Online Article - HTML, CSS, and
-                JavaScript: Your Guide to Learning Fundamental Front End
-                Languages) HTML is all the background work, the guts that you
-                build the rest of the interface on top of. CSS (Cool Styling
-                Stuff) Cascading Style Sheets is the literal “cool styling
-                stuff”; the design work that is part of the make or break
-                experience the viewer/user will have. JavaScript (JS) is the
-                other half of the make or break experience– how your website
-                functions and interacts with the user. A poorly designed front
-                end in JS can really be a bummer and affect the efficiency and
-                amount of traffic on your website, if that’s what you’re into.
+                <ul>
+                    <li>
+                        <b>Item 1</b>: Answer goes here.
+                    </li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <p>
+                    While HTML creates the basic structure for a website, CSS
+                    adds style to that structure, and JavaScript takes all of
+                    that work and makes it interactive and more functionally
+                    complex. (UT Austin Tech Boot Camp; Online Article - HTML,
+                    CSS, and JavaScript: Your Guide to Learning Fundamental
+                    Front End Languages) HTML is all the background work, the
+                    guts that you build the rest of the interface on top of. CSS
+                    (Cool Styling Stuff) Cascading Style Sheets is the literal
+                    “cool styling stuff”; the design work that is part of the
+                    make or break experience the viewer/user will have.
+                    JavaScript (JS) is the other half of the make or break
+                    experience– how your website functions and interacts with
+                    the user. A poorly designed front end in JS can really be a
+                    bummer and affect the efficiency and amount of traffic on
+                    your website, if that’s what you’re into.
+                </p>
             </SingleEssay>
             <SingleEssay question={`The Difference Between Git & Github:`}>
                 GitHub has built an entire ecosystem of DevOps tools around the
