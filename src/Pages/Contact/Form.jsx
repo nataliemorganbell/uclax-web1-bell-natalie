@@ -41,7 +41,7 @@ const Form = ({ getSubmissions }) => {
     };
 
     return (
-        <FormStyled>
+        <FormStyled onSubmit={onSubmit}>
             <Input
                 id="name"
                 labelText="Name"
