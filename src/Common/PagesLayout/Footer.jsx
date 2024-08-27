@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="logo">
                     <SiteLogo />
                 </div>
-                <h2>DownHill Design • Mclouth, Kansas</h2>
+                <h2>DOWNHILL DESIGN • MCLOUTH, KANSAS</h2>
                 <div className="copyright">
                     &copy; 2024. All rights reserved.
                 </div>
@@ -23,7 +23,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    color: white;
+    color: #99403a;
 
     padding: 20px 0px;
 
@@ -34,18 +34,18 @@ const FooterStyled = styled.footer`
         justify-content: center;
         .SiteLogo {
             margin-bottom: 10px;
-            width: 150px;
+            width: 300px;
         }
     }
 
-    h2 {
-        color: white;
+    h6 {
+        color: #99403a;
         margin: 5px 0px;
         font-size: 14px;
     }
 
     .copyright {
         font-size: 14px;
-        color: white;
+        color: #545932;
     }
 `;

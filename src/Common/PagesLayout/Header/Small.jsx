@@ -38,7 +38,7 @@ const SmallStyled = styled.div`
         display: flex;
         align-items: center;
         padding: 20px;
-        max-width: 330px;
+        max-width: 660px;
     }
 
     nav {
@@ -46,25 +46,24 @@ const SmallStyled = styled.div`
         left: 0px;
         top: 300px;
         right: 0px;
-        bottom: 0px;
+        bottom: 275px;
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #99403a;
 
         a {
             display: block;
 
             padding: 10px;
-            border-bottom: solid 1px #999999;
 
-            color: white;
+            color: #fffbe0;
             text-decoration: none;
 
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                background-color: #451d1a;
             }
         }
     }
