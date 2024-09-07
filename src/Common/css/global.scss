@@ -38,22 +38,25 @@ h4,
 h5,
 h6 {
     // font-family: "Roboto", sans-serif;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Helvetica", sans-serif;
     margin: 0px 0px 15px;
     color: #99403a;
 }
 h2 {
     // font-family: "Roboto", sans-serif;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Helvetica", sans-serif;
     margin: 0px 0px 15px;
     color: #99403a;
 }
 p {
-    margin: 0px 0px 15px;
+    margin: 20px 5px 15px;
     font-size: 14px;
+    text-align: center;
+    color: #545932;
 }
 
 li {
+    color: #545932;
     font-size: 14px;
     margin-bottom: 5px;
     p {
@@ -75,13 +78,18 @@ h6 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
+    background-image: linear-gradient(to left, #99403a, #80884d);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
 }
 h2 {
-    font-size: 40px;
+    font-size: 15px;
 }
 h3 {
-    font-size: 30px;
+    font-size: 25px;
 }
 h4 {
     font-size: 25px;
@@ -129,7 +137,7 @@ nav.sublinks a {
     text-decoration: none;
     border-radius: 5px;
     padding: 10px 20px;
-    color: white;
+    color: #fffbe0;
     background-color: #545932;
 }
 

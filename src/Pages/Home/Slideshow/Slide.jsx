@@ -2,12 +2,11 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 
 const Slide = ({ slide }) => {
-    const { title, image } = slide;
+    const { image } = slide;
 
     return (
         <SlideStyled>
-            <img src={image} alt={title} />
-            <p className="legend">{title}</p>
+            <img src={image} />
         </SlideStyled>
     );
 };

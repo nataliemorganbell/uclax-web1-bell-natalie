@@ -22,7 +22,7 @@ const Contact = () => {
     return (
         <ContactStyled>
             <Inset>
-                <h1>Contact</h1>
+                <h1>contact</h1>
                 <Form getSubmissions={getSubmissions} />
                 <SubmissionList submissions={submissions} />
             </Inset>

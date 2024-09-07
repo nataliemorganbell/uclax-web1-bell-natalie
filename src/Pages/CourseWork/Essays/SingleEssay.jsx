@@ -24,7 +24,7 @@ const SingleEssayStyled = styled.div`
 
     h3 {
         background-color: #034444;
-        color: white;
+        color: #fffbe0;
         font-size: 20px;
         padding: 10px 20px;
         margin: 0px;

@@ -46,7 +46,7 @@ const SmallStyled = styled.div`
         left: 0px;
         top: 300px;
         right: 0px;
-        bottom: 275px;
+        bottom: 155px;
 
         z-index: 100;
 

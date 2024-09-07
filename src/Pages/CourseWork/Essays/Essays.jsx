@@ -4,7 +4,7 @@ import SingleEssay from "./SingleEssay.jsx";
 const Essays = () => {
     return (
         <EssaysStyled>
-            <h2>Essays</h2>
+            <h2>ESSAYS</h2>
 
             <SingleEssay question={`The Difference Between HTML, CSS & JS:`}>
                 <p>
