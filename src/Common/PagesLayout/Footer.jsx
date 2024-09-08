@@ -28,12 +28,18 @@ const FooterStyled = styled.footer`
     padding: 20px 0px;
 
     text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-height: 600px;
+    color: #fffbe0;
 
     .logo {
         display: flex;
-        justify-content: center;
+        justify-content: bottom;
         .SiteLogo {
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             width: 300px;
         }
     }

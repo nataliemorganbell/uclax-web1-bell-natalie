@@ -80,6 +80,8 @@ const FormStyled = styled.form`
     }
 
     label {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #545932;
         font-weight: bold;
         display: block;
         margin-bottom: 5px;
@@ -90,30 +92,32 @@ const FormStyled = styled.form`
         font-size: 20px;
         padding: 10px;
         width: 100%;
-        background-color: #eee;
-        border: solid 1px #999;
+        background-color: #fffbe0;
+        border: solid 3px #99403a;
+        border-radius: 25px;
 
         &:focus {
-            background-color: #fff;
+            background-color: #fffbe0;
         }
     }
 
     button {
-        background-color: teal;
+        background-color: #99403a;
         padding: 10px 5px;
         color: #fff;
         width: 150px;
         border: none;
+        border-radius: 25px;
         outline: none;
 
         cursor: pointer;
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #545932;
         }
         &:active {
-            background-color: #002020;
+            background-color: #5459324d;
         }
     }
 `;

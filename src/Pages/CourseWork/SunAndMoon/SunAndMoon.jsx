@@ -19,7 +19,7 @@ const SunAndMoon = () => {
     //HTML Layer
     return (
         <SunAndMoonStyled>
-            <h2>Sun And Moon</h2>
+            <h2>SUN AND MOON</h2>
             <img
                 src={imgSrc}
                 onMouseEnter={changeToSun}
@@ -36,13 +36,13 @@ const SunAndMoonStyled = styled.div`
 
     h2 {
         font-size: 30px;
-        color: teal;
+        color: #545932;
     }
     img {
         display: block;
         margin: 30px auto;
         padding: 20px;
-        border: solid 20px teal;
-        background-color: #014d4d;
+        border: solid 20px #99403a;
+        background-color: #545932;
     }
 `;

@@ -39,20 +39,19 @@ const MediumLargeStyled = styled.div`
     nav {
         text-align: center;
         a {
-            width: 80px;
+            width: 145px;
             display: inline-block;
 
             line-height: 30px;
-            margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #99403a;
-
+            margin: 0px 0px 50px 0px;
+            border-bottom: solid 3px #545932;
             text-align: center;
-            font-size: 12px;
+            font-size: 15px;
+            color: #545932;
             opacity: 0.8;
-            color: #99403a;
             font-weight: bold;
             text-decoration: none;
-            text-transform: uppercase;
+            text-transform: lowercase;
 
             &:hover,
             &:active,
@@ -61,8 +60,8 @@ const MediumLargeStyled = styled.div`
             }
 
             &.active {
-                color: #545932;
-                border-bottom-color: #545932;
+                color: #99403a;
+                border-bottom-color: #99403a;
             }
         }
     }

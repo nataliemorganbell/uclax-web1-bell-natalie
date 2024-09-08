@@ -26,19 +26,22 @@ const Essays = () => {
                 </p>
             </SingleEssay>
             <SingleEssay question={`The Difference Between Git & Github:`}>
-                GitHub has built an entire ecosystem of DevOps tools around the
-                Git tooling that promises to make developers, software teams and
-                organizations more productive. The key difference between Git
-                and GitHub is that Git is a free, open source version control
-                tool that developers install locally on their personal
-                computers, while GitHub is a pay-for-use online service built to
-                run Git in the cloud. Git is a piece of software. GitHub is an
-                online SaaS service. (The Server Side: Your Enterprise Java
-                Community; Online Article, Feb. 2024 - Git vs. GitHub: What’s
-                the Difference?) Git is: •Used for Version Control •Installed
-                Locally on Computer •Tracks Changes Made to Your Code Over Time
-                GitHub is: •Used for Hosting Git Repositories •Cloud-Based
-                Provides a Web Interface to View File Changes{" "}
+                <p>
+                    GitHub has built an entire ecosystem of DevOps tools around
+                    the Git tooling that promises to make developers, software
+                    teams and organizations more productive. The key difference
+                    between Git and GitHub is that Git is a free, open source
+                    version control tool that developers install locally on
+                    their personal computers, while GitHub is a pay-for-use
+                    online service built to run Git in the cloud. Git is a piece
+                    of software. GitHub is an online SaaS service. (The Server
+                    Side: Your Enterprise Java Community; Online Article, Feb.
+                    2024 - Git vs. GitHub: What’s the Difference?) Git is: •Used
+                    for Version Control •Installed Locally on Computer •Tracks
+                    Changes Made to Your Code Over Time GitHub is: •Used for
+                    Hosting Git Repositories •Cloud-Based Provides a Web
+                    Interface to View File Changes{" "}
+                </p>
                 <p>
                     <b>
                         (HubSpot; Blog Entry, Oct. 2023 - Git vs. GitHub: What’s
@@ -47,48 +50,72 @@ const Essays = () => {
                 </p>
             </SingleEssay>
             <SingleEssay question={`The Difference Between JQuery & React:`}>
-                Performance - jQuery relies on traditional DOM manipulation,
-                where updates traverse the entire tree from the root. This can
-                result in slower updates, especially in large or complex
-                applications. In contrast, React employs the Virtual DOM,
-                enhancing the update process and delivering superior
-                performance. Handling Large Applications - Initially designed as
-                a utility library, jQuery must be optimized for building large
-                applications. As applications grow in size and complexity, using
-                jQuery may lead to issues such as slower DOM updates and the
-                development of "Spaghetti Code" (difficult to maintain and
-                unstructured code). With its component-oriented structure and
-                Virtual DOM, React excels in handling large applications. It
-                ensures faster DOM updates and provides a more maintainable
-                codebase, making it a preferable choice for extensive projects.
-                Ease of Use - Both jQuery and React are known for their
-                simplicity and user-friendly nature. Choosing between them
-                depends on the project's elaborateness and specifications. For
-                simple websites or tasks like animating navigation menus, jQuery
-                may be more suitable. In contrast, when developing web apps with
-                multiple views and advanced functionalities, React's design and
-                mechanisms make it the ideal choice, enhancing ease of use for
-                developers.
                 <p>
-                    Modernity - jQuery has played a crucial role in web
-                    development since the late 2000s, simplifying and expediting
-                    the process. However, React's more recent introduction
-                    brings modern updates and ongoing support. React remains
-                    relevant with continuous advancements, providing developers
-                    with a contemporary and evolving toolset. While jQuery is
-                    still utilized on various websites, React's modern features
-                    make it a more vibrant choice for today's development world.
+                    <b>
+                        <em>Performance</em>
+                    </b>{" "}
+                    - jQuery relies on traditional DOM manipulation, where
+                    updates traverse the entire tree from the root. This can
+                    result in slower updates, especially in large or complex
+                    applications. In contrast, React employs the Virtual DOM,
+                    enhancing the update process and delivering superior
+                    performance.
                 </p>
                 <p>
-                    <em>Third Party Libraries</em> - In web development,
-                    third-party libraries are crucial in enhancing efficiency by
-                    leveraging pre-existing solutions. jQuery, being older,
-                    boasts a considerable number of available libraries.
-                    However, React has gained momentum in this aspect, with a
-                    vast ecosystem of Node Package Manager (NPM) packages. The
-                    abundance of React packages indicates a thriving community
-                    and a rich resource pool, giving it an edge in third-party
-                    library support.
+                    {" "}
+                    <b>
+                        <em>Handling Large</em>
+                    </b>{" "}
+                    Applications - Initially designed as a utility library,
+                    jQuery must be optimized for building large applications. As
+                    applications grow in size and complexity, using jQuery may
+                    lead to issues such as slower DOM updates and the
+                    development of "Spaghetti Code" (difficult to maintain and
+                    unstructured code). With its component-oriented structure
+                    and Virtual DOM, React excels in handling large
+                    applications. It ensures faster DOM updates and provides a
+                    more maintainable codebase, making it a preferable choice
+                    for extensive projects.
+                </p>
+                <p>
+                    {" "}
+                    <b>
+                        <em>Ease of Use</em>
+                    </b>{" "}
+                    - Both jQuery and React are known for their simplicity and
+                    user-friendly nature. Choosing between them depends on the
+                    project's elaborateness and specifications. For simple
+                    websites or tasks like animating navigation menus, jQuery
+                    may be more suitable. In contrast, when developing web apps
+                    with multiple views and advanced functionalities, React's
+                    design and mechanisms make it the ideal choice, enhancing
+                    ease of use for developers.
+                </p>
+                <p>
+                    <b>
+                        <em>Modernity</em>
+                    </b>{" "}
+                    - jQuery has played a crucial role in web development since
+                    the late 2000s, simplifying and expediting the process.
+                    However, React's more recent introduction brings modern
+                    updates and ongoing support. React remains relevant with
+                    continuous advancements, providing developers with a
+                    contemporary and evolving toolset. While jQuery is still
+                    utilized on various websites, React's modern features make
+                    it a more vibrant choice for today's development world.
+                </p>
+                <p>
+                    <b>
+                        <em>Third Party Libraries</em>
+                    </b>{" "}
+                    - In web development, third-party libraries are crucial in
+                    enhancing efficiency by leveraging pre-existing solutions.
+                    jQuery, being older, boasts a considerable number of
+                    available libraries. However, React has gained momentum in
+                    this aspect, with a vast ecosystem of Node Package Manager
+                    (NPM) packages. The abundance of React packages indicates a
+                    thriving community and a rich resource pool, giving it an
+                    edge in third-party library support.
                 </p>
                 <p>
                     The comparison between jQuery and React reveals that both
@@ -109,10 +136,12 @@ const Essays = () => {
             <SingleEssay
                 question={`The Difference Between a Front-End & Back-End Developer:`}
             >
-                Front-end developers are responsible for what users see on a
-                website, like the layout, design and interactive elements.
-                Back-end developers handle everything you can't see, including
-                server functions, databases and security.
+                <p>
+                    Front-end developers are responsible for what users see on a
+                    website, like the layout, design and interactive elements.
+                    Back-end developers handle everything you can't see,
+                    including server functions, databases and security.
+                </p>
                 <b>
                     <p>
                         (Forbes Advisor; Online Article, May 30, 2023 -
@@ -137,9 +166,11 @@ const Essays = () => {
             <SingleEssay
                 question={`The Difference Between JPG, GIF, PNG and SVG Images:`}
             >
-                <b>
-                    <em>JPG: Joint Photographic Experts Group</em>
-                </b>
+                <p>
+                    <b>
+                        <em>JPG: Joint Photographic Experts Group</em>
+                    </b>
+                </p>
                 <p>
                     This image format takes up very little storage space, and is
                     quick to upload or download. JPGs can support millions of
@@ -156,9 +187,11 @@ const Essays = () => {
                     animated, or would benefit from color changes (like logos or
                     icons).
                 </p>
-                <b>
-                    <em>GIF: Graphics Interchange Format</em>
-                </b>
+                <p>
+                    <b>
+                        <em>GIF: Graphics Interchange Format</em>
+                    </b>
+                </p>
                 <p>
                     GIFs take the pain out of sending images to or from slow
                     connections, or low bandwidth. GIFs are “lossless” - meaning
@@ -170,9 +203,11 @@ const Essays = () => {
                     GIF, but they are still a powerful way to bring motion to
                     your online channels.
                 </p>
-                <b>
-                    <em>PNG: Portable Network Graphics</em>{" "}
-                </b>
+                <p>
+                    <b>
+                        <em>PNG: Portable Network Graphics</em>{" "}
+                    </b>
+                </p>
                 <p>
                     PNGs replaced the GIFs. If the size of your file is not a
                     pain point, and you’re working with a more complex image,
@@ -186,9 +221,11 @@ const Essays = () => {
                     working with files that are still being edited. It’s the
                     only raster format of the four that supports transparency!
                 </p>
-                <b>
-                    <em>SVG: Scalable Vector Graphics</em>
-                </b>
+                <p>
+                    <b>
+                        <em>SVG: Scalable Vector Graphics</em>
+                    </b>
+                </p>
                 <p>
                     SVG is the latest of all the file types. It is a vector
                     image file format and is more powerful than other file
@@ -209,7 +246,94 @@ const Essays = () => {
             <SingleEssay
                 question={`Define the Following Agile Roles - Project Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET & DevOps:`}
             >
-                Answer 4 goes here.
+                <p>
+                    <b>
+                        <em>Project Manager:</em>
+                    </b>
+                </p>
+                <p>
+                    Coordinated between project teams and other departments
+                    Monitors risks and sequence dependencies Updates project
+                    stakeholders Advocates the needs of the business Ensures
+                    project is executed within defined time, budgets and scope
+                </p>
+
+                <p>
+                    <b>
+                        <em>Scrum Master:</em>
+                    </b>
+                </p>
+                <p>
+                    Coaches development teams on Scrum principles and practices
+                    Hosts daily scrums and maintains scrum boards Eliminated
+                    roadblocks and external distractions
+                </p>
+
+                <p>
+                    <b>
+                        <em>UX Designer:</em>
+                    </b>
+                </p>
+                <p>
+                    Empathizes with the user and sees the world through their
+                    eyes Helps create the interactive approach to design They
+                    are responsible for the look and feel of a website or app
+                </p>
+
+                <p>
+                    <b>
+                        <em>Developer/Engineer:</em>
+                    </b>
+                </p>
+                <p>
+                    Oversee software programing Incharge of testing software at
+                    different phases Software layout Setting up models and
+                    diagrams to communicate end goal and map out future software
+                    updates Front-end and back-end development
+                </p>
+
+                <p>
+                    <b>
+                        <em>QA/SDET:</em>
+                    </b>
+                </p>
+                <p>
+                    QA professionals manually test applications with written
+                    testing plans and traceability matrices SDET write code to
+                    test applications via automation
+                </p>
+
+                <p>
+                    <b>
+                        <em>DevOps:</em>
+                    </b>
+                </p>
+                <p>
+                    Enables software development teams to release higher-quality
+                    software at a faster rate and at a level that exceeds
+                    customer expectations Combines Development and Operations
+                    Unification and automation of processes DevOps is a set of
+                    practices, tools, and a cultural philosophy that automate
+                    and integrate the processes between software development and
+                    IT teams. It emphasizes team empowerment, cross-team
+                    communication and collaboration, and technology automation.
+                    Optimizing systems
+                </p>
+
+                <p>
+                    <b>
+                        <em>Scrum Definition:</em>
+                    </b>
+                </p>
+
+                <p>
+                    Scrum is an agile team collaboration framework commonly used
+                    in software development and other industries. Scrum
+                    prescribes for teams to break work into goals to be
+                    completed within time-boxed iterations, called sprints. Each
+                    sprint is no longer than one month and commonly lasts two
+                    weeks.
+                </p>
             </SingleEssay>
         </EssaysStyled>
     );

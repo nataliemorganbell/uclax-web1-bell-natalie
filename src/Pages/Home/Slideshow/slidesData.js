@@ -1,9 +1,9 @@
-import slide1 from "./img/Lamps/Lamp1.jpeg";
-import slide2 from "./img/Lamps/Lamp2.jpeg";
-import slide3 from "./img/Lamps/Lamp3.jpeg";
-import slide4 from "./img/Lamps/Lamp4.jpeg";
-import slide5 from "./img/Lamps/Lamp5.jpeg";
-import slide6 from "./img/Lamps/Lamp6.jpeg";
+import slide1 from "./img/Slideshow Imgs/designs1 2.jpg";
+import slide2 from "./img/Slideshow Imgs/working glass 2.jpg";
+import slide3 from "./img/Slideshow Imgs/Window12 2.jpeg";
+import slide4 from "./img/Slideshow Imgs/Lamp4.jpeg";
+import slide5 from "./img/Slideshow Imgs/workingglass1 2.jpg";
+import slide6 from "./img/Slideshow Imgs/Lamp5.jpeg";
 
 export const slidesData = [
     {

@@ -20,10 +20,13 @@ SingleEssay.propTypes = {
 
 const SingleEssayStyled = styled.div`
     margin: 20px 0px;
-    border: solid 2px #034444;
+    border: solid 3px #99403a;
+    border-radius: 25px;
 
     h3 {
-        background-color: #034444;
+        background-color: #99403a;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
         color: #fffbe0;
         font-size: 20px;
         padding: 10px 20px;

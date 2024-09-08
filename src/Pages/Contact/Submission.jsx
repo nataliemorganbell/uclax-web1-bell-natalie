@@ -19,7 +19,7 @@ Submission.propTypes = {
 };
 
 const SubmissionStyled = styled.div`
-    outline: solid 1px #999;
+    outline: solid 3px #99403a;
     padding: 10px;
     margin: 10px 0px;
 `;

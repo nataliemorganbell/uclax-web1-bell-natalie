@@ -6,7 +6,7 @@ const ReponsiveDesign = () => {
     const { isMediumAndUp } = useMediaQuery();
     return (
         <ReponsiveDesignStyled>
-            <h2>ReponsiveDesign</h2>
+            <h2>RESPONSIVE DESIGN</h2>
 
             <div className="boxes">
                 {isMediumAndUp && <div className="box box1">1</div>}
