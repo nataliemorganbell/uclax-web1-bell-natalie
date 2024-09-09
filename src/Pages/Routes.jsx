@@ -13,6 +13,8 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
 import Contact from "./Contact/Contact.jsx";
+import Classes from "./Classes/Player/Player.jsx";
+import Windows from "./Windows/Windows.jsx";
 
 // course work page components
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
@@ -29,6 +31,8 @@ const MyRoutes = () => {
                         <Route element={<Home />} path="" />
                         <Route element={<Staff />} path="staff" />
                         <Route element={<Contact />} path="contact" />
+                        <Route element={<Classes />} path="classes" />
+                        <Route element={<Windows />} path="windows" />
 
                         <Route
                             element={<CourseWorkLayout />}
