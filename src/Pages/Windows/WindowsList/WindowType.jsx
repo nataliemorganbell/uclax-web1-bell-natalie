@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 import Accolades from "./Accolades/Accolades";
 
-const StaffMember = ({ member }) => {
+const WindowType = ({ member }) => {
     const { name, image, price, accolades } = member;
 
     return (
-        <StaffMemberStyled>
+        <WindowTypeStyled>
             <img src={image} alt={name} />
             <h3>{name}</h3>
 
@@ -17,23 +17,22 @@ const StaffMember = ({ member }) => {
                 </p>
                 <Accolades accolades={accolades} />
             </div>
-        </StaffMemberStyled>
+        </WindowTypeStyled>
     );
 };
 
-export default StaffMember;
+export default WindowType;
 
 // prop-types
-StaffMember.propTypes = {
+WindowType.propTypes = {
     member: PropTypes.object.isRequired,
 };
 
-const StaffMemberStyled = styled.div`
+const WindowTypeStyled = styled.div`
     background-color: #fffbe0;
 
     img {
-        aspect-ratio: 1;
-        height: 600px;
+        aspect-ratio: 1, height 600px;
         width: 100%;
         display: block;
         border-top-right-radius: 25px;
