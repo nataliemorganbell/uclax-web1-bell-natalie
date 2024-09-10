@@ -3,11 +3,14 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://nataliemorganbell.github.io/uclax-web1-bell-natalie",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
         "server": "json-server --watch ./src/api-server/emails-db.json --port 4059",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "git push origin master && gh-pages -d build"
     },
     "dependencies": {
         "@emotion/react": "^11.13.3",
@@ -20,6 +23,7 @@
         "axios": "^1.7.3",
         "cd": "^0.3.3",
         "create": "^0.0.2",
+        "gh-pages": "^6.1.1",
         "json-server": "^1.0.0-beta.1",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
